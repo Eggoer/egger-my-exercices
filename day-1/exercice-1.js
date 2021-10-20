@@ -1,5 +1,4 @@
 // Créer un fichier ˜/mylastname-my-exercices/day-1/exercice-1.js
-
 // Elle devra être prototypée de la manière suivante :  my_display_alpha()
 export const my_display_alpha = () => {
 
