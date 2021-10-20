@@ -9,7 +9,7 @@ export const my_alpha_reverse = (str) => {
     var string = "";
 
     for (var i = nbr - 1; i > 0; i--)
-        string + str[i];
+        string += str[i];
 
     // #Indices
     // Retour attendu : String
