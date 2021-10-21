@@ -4,14 +4,18 @@ export const my_string_is_number = (str) => {
     
     // Si tout autre chose comme résultat renvoyez false
     var bool = false;
-    
-    // Faite en sorte de retourner true si la chaine passé en paramètre contient un nombre
-    var number = parseInt(str, 10);
+    var i = 0;
 
-    if (typeof(number) === "number")
-        bool = true;
+    // Faite en sorte de retourner true si la chaine passé en paramètre contient un nombre
+    while (str[i]) {
+        if (parseInt(str[i]))
+            bool = true;
+        i++;
+    }
     
     // #Indices
     // Retour attendu : Boolean
     return bool;
 }
+
+console.log(my_string_is_number("Test"))
