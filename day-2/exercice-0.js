@@ -8,7 +8,7 @@ export const my_display_forever_42 = (nbr) => {
 
     // Si un nombre est passé en argument renvoyer le nombre passé en paramètre. 
     if (typeof(nbr) === "number")
-        return number;
+        return nbr;
     
     // #Indices
     // Retour attendu : Number
