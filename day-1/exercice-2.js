@@ -1,6 +1,6 @@
 // Créer un fichier ˜/mylastname-my-exercices/day-1/exercice-2.js
 // Vous devez utiliser la méthode my_display_alpha() de l’exercice 1.
-import { my_display_alpha } from "./exercice-1";
+import { my_display_alpha } from "./exercice-1.js";
 
 // Elle devra être prototypée de la manière suivante :  my_display_alpha_reverse()
 export const my_display_alpha_reverse = () => {
