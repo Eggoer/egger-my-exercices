@@ -21,7 +21,7 @@ Getting started:
 > node ./files.js
 
 How the code works:
-- It looks for the file "StockEtablissement_utf8.csv"
+- It looks for the file "*StockEtablissement_utf8.csv*"
 - When the file is found, it splits it in several files in a folder named "csvFiles"
 - Read every file asynchronously
 
