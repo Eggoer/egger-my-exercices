@@ -16,5 +16,8 @@
     "url": "https://github.com/Eggoer/egger-my-exercices/issues"
   },
   "homepage": "https://github.com/Eggoer/egger-my-exercices#readme",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "pm2": "^5.1.2"
+  }
 }
