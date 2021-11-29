@@ -25,7 +25,7 @@ How the code works:
 - When the file is found, it splits it in several files in a folder named "csvFiles"
 - Read every file asynchronously
 
-*Issues*
+### *Issues*
 
 There is no bdd parametered and no push in database.
-After reading hte multiple child files, the execution stops.
+After reading the multiple child files, the execution stops.
