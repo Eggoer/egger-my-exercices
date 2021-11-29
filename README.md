@@ -17,6 +17,7 @@ Getting started:
 - Execute program
 
 > cd siren-invader
+> 
 > node ./files.js
 
 How the code works:
@@ -25,5 +26,6 @@ How the code works:
 - Read every file asynchronously
 
 *Issues*
+
 There is no bdd parametered and no push in database.
 After reading hte multiple child files, the execution stops.
